@@ -21,7 +21,6 @@ const Card = (props) => {
     return (
         <div onClick={() => clicked()} >
         <img alt='thumb' key={props.name} src={`${process.env.PUBLIC_URL}/assets/${cardThumbName()}`}/>
-        <li key={props._id} style={ {color: color} } id={props.name}> {props.name} </li>
         </div>
     );
 };
