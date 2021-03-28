@@ -88,10 +88,10 @@ export const Header = () => {
               </Typography>
               <div className={classes.search}>
                 <div className={classes.searchIcon}>
-                  <SearchIcon />
+                  <SearchIcon />  
                 </div>
                 <InputBase
-                  placeholder="Search.."
+                  placeholder="Name, category, etc."
                   classes={{
                     root: classes.inputRoot,
                     input: classes.inputInput,

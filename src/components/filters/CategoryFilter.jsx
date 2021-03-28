@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LinkFilter = () => {
+const CategoryFilter = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const LinkFilter = () => {
     );
 };
 
-export default LinkFilter;
+export default CategoryFilter;

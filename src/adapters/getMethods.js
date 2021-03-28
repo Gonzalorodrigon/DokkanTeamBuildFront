@@ -7,7 +7,7 @@ export const getCards = async() => {
     const cards = await axios.get(`${CARDS_URL}`).catch((e) => {
         console.error(e);
     })
-    return cards.data;
+    return cards.data != null ? cards.data : null;
 }
 
 export const getCategories = async() => {

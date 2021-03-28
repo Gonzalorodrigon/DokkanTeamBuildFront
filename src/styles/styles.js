@@ -56,6 +56,25 @@ export const useStyles = makeStyles((theme) => ({
       display: 'flex',
     },
   },
+  items: {
+    width: '50%',
+    height: '100%',
+    display: 'flex',
+    float: 'left',
+    flexDirection: 'row-reverse',
+    flexWrap: 'wrap',
+    justifyContent: 'flex-end',
+    overflow: 'hidden',
+    background: 'red'
+
+  },
+  item: {
+    width: '125px',
+    height: '125px',
+    display: 'flex',
+    maxWidth: '100px',
+    padding: '15px'
+  },
   sectionMobile: {
     display: 'flex',
     [theme.breakpoints.up('md')]: {

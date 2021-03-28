@@ -1,5 +1,6 @@
 import React from 'react';
 import {ColorFilter, TypeFilter, CategoryFilter, LinkFilter, RarityFilter} from './filters';
+
 const SubHeader = () => {
     return (
         <>
